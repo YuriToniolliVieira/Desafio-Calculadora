@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 500px;
+    font: fantasy;
+    font-weight: 450;
+    font-size: 30px;
+}
+#visor{
+    color: rgb(0, 0, 0);
+}
+#header{
+    color: rgb(0, 250, 146);
+}
+.button.borda{
+    color: rgb(0, 0, 0);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.859);
+}
+body div#header{
+    margin-bottom: 350px;
+    width: 50px;
+    height: 50px;
+    transition: ease 0.5s;
+    cursor: pointer;
+    
+}
+input{
+    margin: 4px;
+    border: none;
+    border-radius: 10px;
+}
+input[type=text]{
+    width: calc(100% - 5px);
+    height: 50px;
+}
+input[type=button]{
+    width: 100px;
+    height: 50px;
+    transition: ease 1.5s;
+    cursor: pointer;
+}
+div#calculadora{
+    box-shadow: 0 0 20px rgb(100, 260, 255);
+}
+div#calculadora div{
+   display: flex;
+}
+div#calculadora input:nth-child(1){
+    background: rgb(102, 224, 204);
+}
+div#calculadora input:nth-child(2){
+    background: rgb(102, 224, 204);
+}
+div#calculadora input:nth-child(3){
+    background: rgb(102, 224, 204);
+}
+div#calculadora input:nth-child(4){
+    background: rgba(0, 162, 255, 0.760);
+}
+div#primeira input:nth-child(5){
+    background: rgb(236, 130, 130);
+}
+div#segunda input:nth-child(5){
+    background: rgb(236, 130, 130);
+}
+div#terceira input:nth-child(5) {
+    background: rgba(255, 0, 0, 0.678);
+}
+div#quarta input:nth-child(1), div#calculadora{
+    border-bottom-left-radius: 25px;
+}
+div#quarta input:nth-child(5){
+    background: rgba(255, 255, 255, 0.808);
+}
+div#quarta input:nth-child(5), div#calculadora{
+    border-bottom-right-radius: 25px;
+}
+input[type=button]:hover{
+    filter: brightness(70%);
+}
+input[type=button]:active{
+    transform: scale(0.6)
+}
